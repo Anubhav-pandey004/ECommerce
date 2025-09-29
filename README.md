@@ -34,8 +34,8 @@ bash
 cd Ecommerce
 
 2️⃣ Backend Setup
-cd backend
-npm install
+```cd backend ```
+```npm install```
 
 Create a .env file in the backend folder with:
 
@@ -45,15 +45,15 @@ JWT_SECRET=your-secret-key
 
 Run backend server:
 
-node app.js
+```node app.js```
 
 3️⃣ Frontend Setup
-cd frontend
-npm install
+```cd frontend```
+```npm install```
 
 
 Run frontend app:
-npm run dev
+```npm run dev```
 
 
 ## 💳 Stripe Local Setup  
@@ -68,7 +68,7 @@ Unzip the folder and open it in your terminal.
 
 ### 2️⃣ Login to Stripe  
 bash
-stripe login
+```stripe login```
 
 This will give you a pairing code and open a browser window to authenticate with your Stripe account.
 After success, your CLI will be linked to your Stripe account.
@@ -77,8 +77,7 @@ After success, your CLI will be linked to your Stripe account.
 In a separate terminal, run:
 
 bash
-Copy code
-stripe listen --forward-to localhost:8080/webhook
+```stripe listen --forward-to localhost:8080/webhook```
 This forwards Stripe events to your local backend endpoint (/webhook).
 
 4️⃣ Test a Payment
