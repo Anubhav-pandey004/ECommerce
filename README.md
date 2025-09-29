@@ -29,7 +29,7 @@ This project was created as part of the **Associate Software Engineer (ASE) Chal
 
 ### 1️⃣ Clone the Repository  
 bash
-git clone https://github.com/Anubhav-pandey004/Ecommerce.git
+```git clone https://github.com/Anubhav-pandey004/Ecommerce.git```
 
 cd Ecommerce
 
