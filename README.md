@@ -21,7 +21,7 @@ This project was created as part of the **Associate Software Engineer (ASE) Chal
 - **Backend:** Node.js, Express.js, MongoDB  
 - **Database:** MongoDB (Atlas/local)  
 - **Authentication:** JSON Web Tokens (JWT)  
-- **Testing:** Jest & React Testing Library (frontend), Mocha/Chai (backend)  
+
 
 ---
 
